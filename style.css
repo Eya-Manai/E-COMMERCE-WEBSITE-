@@ -1,0 +1,187 @@
+                        .navbar ul {
+                            display: flex;
+                            list-style-type: none;
+                        }
+                        
+                        * {
+                            padding: 0;
+                            margin: 0;
+                        }
+                        
+                        .logo {
+                            display: inline-block;
+                        }
+                        
+                        .navbar ul li a {
+                            padding-left: 10px;
+                            align-items: center;
+                            display: inline block;
+                            margin-right: 20px;
+                            text-decoration: none;
+                            color: whitesmoke;
+                        }
+                        
+                        .navbar {
+                            display: flex;
+                            margin-left: 55%;
+                            display: inline-block;
+                            list-style-type: none;
+                            color: red;
+                            margin-top: 20px;
+                        }
+                        
+                        .lkol {
+                            display: flex;
+                        }
+                        
+                        .continer {
+                            max-width: 1300px;
+                            margin: auto;
+                            padding-left: 25px;
+                            padding-right: 25px;
+                        }
+                        
+                        .row {
+                            padding: auto;
+                            display: flex;
+                            flex-direction: column;
+                            color: white;
+                            margin-left: 25px;
+                            margin-top: 100px;
+                        }
+                        
+                        .row p {
+                            font-size: 20px;
+                            font-family: Lucida Handwriting;
+                        }
+                        
+                        .col1 {
+                            display: flex;
+                            flex-direction: row;
+                            color: whitesmoke;
+                        }
+                        
+                        body {
+                            margin: 0;
+                            background-color: rgb(224, 151, 212);
+                        }
+                        
+                        .header {
+                            background-image: url("images/back.png");
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            height: 100vh;
+                            width: 100%;
+                        }
+                        
+                        .video {
+                            width: 100%;
+                            position: absolute;
+                            height: 500px;
+                            z-index: -1;
+                            object-fit: cover;
+                        }
+                        
+                        .boton {
+                            color: black;
+                            display: inline-block;
+                            background: rgb(166, 128, 202);
+                            padding: 8px 30px;
+                            border-radius: 30px;
+                            width: fit-content;
+                            text-decoration: none;
+                            transition: background-position;
+                            margin: 20px;
+                            padding: 20px
+                        }
+                        
+                        .boton:hover {
+                            background: rgb(84, 10, 102);
+                        }
+                        
+                        .categories {
+                            margin: 70px;
+                        }
+                        
+                        .col3 {
+                            flex-basis: 20%;
+                            min-width: 250px;
+                            margin-top: 50px
+                        }
+                        
+                        .col3 img {
+                            margin: 5px;
+                        }
+                        
+                        .yep {
+                            font-family: Lucida Handwriting;
+                            color: wheat;
+                            font-size: 30px;
+                            font-weight: bold;
+                            text-align: center;
+                            margin-top: 75px;
+                        }
+                        
+                        .images {
+                            display: flex;
+                            justify-content: center;
+                            padding-top: 25px;
+                            margin-left: 10%;
+                            margin-right: 10%;
+                            color: white;
+                        }
+                        
+                        .img img {
+                            padding-right: 10px;
+                            width: 262.5px;
+                            height: 262.5px;
+                        }
+                        
+                        .img:hover {
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        }
+                        
+                        .research {
+                            border-radius: 15px;
+                            padding: 5px;
+                            border: none;
+                            outline: none;
+                        }
+                        
+                        .models {
+                            text-align: center;
+                            font-size: 30px;
+                            color: rgb(73, 6, 136);
+                        }
+                        
+                        .grid1 h2 {
+                            margin: 5px;
+                            padding: 5px;
+                            font-size: 15px;
+                            font-family: monospace;
+                        }
+                        
+                        .grid-container {
+                            display: grid;
+                            grid-template-columns: repeat(4, 360px);
+                            padding: 5px;
+                            width: 100%;
+                        }
+                        
+                        .selection {
+                            background-color: black;
+                            color: white;
+                            padding: 30px;
+                            font-size: 15px;
+                        }
+                        
+                        .social-media {
+                            margin-top: 50px;
+                            background-color: black;
+                            color: white;
+                            padding: 30px;
+                        }
+                        
+                        .social-media a {
+                            padding: 10px;
+                        }
